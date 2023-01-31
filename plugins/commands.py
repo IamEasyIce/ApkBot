@@ -244,7 +244,7 @@ async def start(client, message):
         is_valid = await check_token(client, userid, token)
         if is_valid == True:
             await message.reply_text(
-                text=f"<b>🎗️ Hey {message.from_user.mention}, You Are Successfully Verified 🎗️\nNow You Have Unlimited Premium Access Of Nataliya 🔆</b>",
+                text=f"<b>🎗️ Hey {message.from_user.mention}, You Are Successfully Verified 🎗️\nNow You Have Unlimited Premium Access Of Priyanka 🔆</b>",
                 protect_content=True
             )
             await verify_user(client, userid, token)
@@ -263,7 +263,7 @@ async def start(client, message):
                     InlineKeyboardButton("♦️ Click Here To Verify ♦️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b>🔆 You Are Not Verified 🤦🏻‍♂️\n🔆 Kindly Verify To Get Premium Access\n\n <i>🎗️How To Open Link? › [Click Here🎗️](https://t.me/How_To_Toturials/2312)</i></b>",
+                    text="<b>🔆 You Are Not Verified 🤦🏻‍♂️\n🔆 Kindly Verify To Get Premium Access\n\n <i>🎗️How To Open Link? › [Click Here🎗️](https://t.me/EasySky_Link/179)</i></b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -315,7 +315,7 @@ async def start(client, message):
             InlineKeyboardButton("♦️ Click Here To Verify ♦️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
         ]]
         await message.reply_text(
-            text="<b>🔆 You Are Not Verified 🤦🏻‍♂️\n🔆 Kindly Verify To Get Premium Access\n\n <i>🎗️How To Open Link? › [Click Here🎗️](https://t.me/How_To_Toturials/2312)</i></b>",
+            text="<b>🔆 You Are Not Verified 🤦🏻‍♂️\n🔆 Kindly Verify To Get Premium Access\n\n <i>🎗️How To Open Link? › [Click Here🎗️](https://t.me/EasySky_Link/179)</i></b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
