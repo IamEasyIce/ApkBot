@@ -244,7 +244,7 @@ async def start(client, message):
         is_valid = await check_token(client, userid, token)
         if is_valid == True:
             await message.reply_text(
-                text=f"<b>🎗️ Hey {message.from_user.mention}, You Are Successfully Verified 🎗️\nNow You Have Unlimited Premium Access Of Nataliya 🔆</b>",
+                text=f"<b>🎗️ Hᴇʏ {message.from_user.mention}, Yᴏᴜ Aʀᴇ Sᴜᴄᴄᴇssғᴜʟʟʏ Vᴇʀɪғɪᴇᴅ 🎗️\nNᴏᴡ Yᴏᴜ Hᴀᴠᴇ Uɴʟɪᴍɪᴛᴇᴅ Vɪᴘ Aᴄᴄᴇss Oғ Pʀɪʏᴀɴᴋᴀ 🔆</b>",
                 protect_content=True
             )
             await verify_user(client, userid, token)
@@ -263,7 +263,7 @@ async def start(client, message):
                     InlineKeyboardButton("♦️ Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Vᴇʀɪғʏ ♦️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b>🔆 Yᴏᴜ Aʀᴇ Nᴏᴛ Vᴇʀɪғɪᴇᴅ 🤦🏻‍♂️\n🔆 Kɪɴᴅʟʏ Vᴇʀɪғʏ Tᴏ Gᴇᴛ Pʀᴇᴍɪᴜᴍ Aᴄᴄᴇss\n\n <i>🎗️Hᴏᴡ Tᴏ Oᴘᴇɴ Lɪɴᴋ? › [Cʟɪᴄᴋ Hᴇʀᴇ🎗️](https://t.me/MrperfectOffcial/130)</i></b>",
+                    text="<b>🔆 Yᴏᴜ Aʀᴇ Nᴏᴛ Vᴇʀɪғɪᴇᴅ 🤦🏻‍♂️\n🔆 Kɪɴᴅʟʏ Vᴇʀɪғʏ Tᴏ Gᴇᴛ Vɪᴘ Aᴄᴄᴇss\n\n <i>🎗️Hᴏᴡ Tᴏ Oᴘᴇɴ Lɪɴᴋ? › [Cʟɪᴄᴋ Hᴇʀᴇ🎗️](https://t.me/MrperfectOffcial/130)</i></b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -315,7 +315,7 @@ async def start(client, message):
             InlineKeyboardButton("♦️ Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Vᴇʀɪғʏ ♦️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
         ]]
         await message.reply_text(
-            text="<b>🔆 Yᴏᴜ Aʀᴇ Nᴏᴛ Vᴇʀɪғɪᴇᴅ 🤦🏻‍♂️\n🔆 Kɪɴᴅʟʏ Vᴇʀɪғʏ Tᴏ Gᴇᴛ Pʀᴇᴍɪᴜᴍ Aᴄᴄᴇss\n\n <i>🎗️Hᴏᴡ Tᴏ Oᴘᴇɴ Lɪɴᴋ? › [Click Here🎗️](https://t.me/MrperfectOffcial/130)</i></b>",
+            text="<b>🔆 Yᴏᴜ Aʀᴇ Nᴏᴛ Vᴇʀɪғɪᴇᴅ 🤦🏻‍♂️\n🔆 Kɪɴᴅʟʏ Vᴇʀɪғʏ Tᴏ Gᴇᴛ Vɪᴘ Aᴄᴄᴇss\n\n <i>🎗️Hᴏᴡ Tᴏ Oᴘᴇɴ Lɪɴᴋ? › [Click Here🎗️](https://t.me/MrperfectOffcial/130)</i></b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
