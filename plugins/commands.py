@@ -244,7 +244,7 @@ async def start(client, message):
         is_valid = await check_token(client, userid, token)
         if is_valid == True:
             await message.reply_text(
-                text=f"<b>🎗️ Hey {message.from_user.mention}, You Are Successfully Verified 🎗️\nNow You Have Unlimited Premium Access Of Priyanka 🔆</b>",
+                text=f"<b>🎗️ Hey {message.from_user.mention}, You Are Successfully Verified 🎗️\nNow You Have Unlimited Premium Access Of Nataliya 🔆</b>",
                 protect_content=True
             )
             await verify_user(client, userid, token)
@@ -260,10 +260,10 @@ async def start(client, message):
         try:
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
-                    InlineKeyboardButton("♦️ Click Here To Verify ♦️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
+                    InlineKeyboardButton("♦️ Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Vᴇʀɪғʏ ♦️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b>🔆 You Are Not Verified 🤦🏻‍♂️\n🔆 Kindly Verify To Get Premium Access\n\n <i>🎗️How To Open Link? › [Click Here🎗️](https://t.me/EasySky_Link/179)</i></b>",
+                    text="<b>🔆 Yᴏᴜ Aʀᴇ Nᴏᴛ Vᴇʀɪғɪᴇᴅ 🤦🏻‍♂️\n🔆 Kɪɴᴅʟʏ Vᴇʀɪғʏ Tᴏ Gᴇᴛ Pʀᴇᴍɪᴜᴍ Aᴄᴄᴇss\n\n <i>🎗️Hᴏᴡ Tᴏ Oᴘᴇɴ Lɪɴᴋ? › [Cʟɪᴄᴋ Hᴇʀᴇ🎗️](https://t.me/MrperfectOffcial/130)</i></b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -312,10 +312,10 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     if not await check_verification(client, message.from_user.id) and VERIFY == True:
         btn = [[
-            InlineKeyboardButton("♦️ Click Here To Verify ♦️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
+            InlineKeyboardButton("♦️ Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Vᴇʀɪғʏ ♦️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
         ]]
         await message.reply_text(
-            text="<b>🔆 You Are Not Verified 🤦🏻‍♂️\n🔆 Kindly Verify To Get Premium Access\n\n <i>🎗️How To Open Link? › [Click Here🎗️](https://t.me/EasySky_Link/179)</i></b>",
+            text="<b>🔆 Yᴏᴜ Aʀᴇ Nᴏᴛ Vᴇʀɪғɪᴇᴅ 🤦🏻‍♂️\n🔆 Kɪɴᴅʟʏ Vᴇʀɪғʏ Tᴏ Gᴇᴛ Pʀᴇᴍɪᴜᴍ Aᴄᴄᴇss\n\n <i>🎗️Hᴏᴡ Tᴏ Oᴘᴇɴ Lɪɴᴋ? › [Click Here🎗️](https://t.me/MrperfectOffcial/130)</i></b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )

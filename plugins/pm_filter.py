@@ -269,7 +269,7 @@ async def next_page(bot, query):
                     ],
                 )
     btn.insert(0, [
-        InlineKeyboardButton("‼️ How To Download ⁉️", url=f"https://t.me/EasySky_Link")
+        InlineKeyboardButton("‼️ How To Download ⁉️", url=f"https://t.me/MrperfectOffcial/130")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -1411,7 +1411,7 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("‼️ How To Download ⁉️", url=f"https://t.me/EasySky_Link")
+        InlineKeyboardButton("‼️ How To Download ⁉️", url=f"https://t.me/MrperfectOffcial/130")
     ])
 
     if offset != "":
@@ -1577,7 +1577,7 @@ async def advantage_spell_chok(client, msg):
         button = [[
                    InlineKeyboardButton("Search Spelling In Google", url=f"https://www.google.com/search?q={reqst_gle}")
         ]]
-        await client.send_message(chat_id=REQUEST_LOGS, text=(script.NORSLTS.format(mv_rqst, reqstr.mention, reqstr.id)))
+        await client.send_message(chat_id=REQUEST_LOGS, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
         k = await msg.reply_photo(
             photo=SPELL_IMG, 
             caption=script.I_CUDNT.format(mv_rqst),
