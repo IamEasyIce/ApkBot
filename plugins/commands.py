@@ -263,7 +263,7 @@ async def start(client, message):
                     InlineKeyboardButton("♦️ Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Vᴇʀɪғʏ ♦️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b>🔆 Yᴏᴜ Aʀᴇ Nᴏᴛ Vᴇʀɪғɪᴇᴅ 🤦🏻‍♂️\n🔆 Kɪɴᴅʟʏ Vᴇʀɪғʏ Tᴏ Gᴇᴛ Vɪᴘ Aᴄᴄᴇss\n\n <i>🎗️Hᴏᴡ Tᴏ Oᴘᴇɴ Lɪɴᴋ? › [Cʟɪᴄᴋ Hᴇʀᴇ🎗️](https://t.me/MrperfectOffcial/130)</i></b>",
+                    text="<b>🔆 Yᴏᴜ Aʀᴇ Nᴏᴛ Vᴇʀɪғɪᴇᴅ 🤦🏻‍♂️\n🔆 Kɪɴᴅʟʏ Vᴇʀɪғʏ Tᴏ Gᴇᴛ Vɪᴘ Aᴄᴄᴇss\n\n <i>🎗️Hᴏᴡ Tᴏ Oᴘᴇɴ Lɪɴᴋ? › [Cʟɪᴄᴋ Hᴇʀᴇ🎗️](https://t.me/EasySky_Link)</i></b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -315,7 +315,7 @@ async def start(client, message):
             InlineKeyboardButton("♦️ Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Vᴇʀɪғʏ ♦️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
         ]]
         await message.reply_text(
-            text="<b>🔆 Yᴏᴜ Aʀᴇ Nᴏᴛ Vᴇʀɪғɪᴇᴅ 🤦🏻‍♂️\n🔆 Kɪɴᴅʟʏ Vᴇʀɪғʏ Tᴏ Gᴇᴛ Vɪᴘ Aᴄᴄᴇss\n\n <i>🎗️Hᴏᴡ Tᴏ Oᴘᴇɴ Lɪɴᴋ? › [Click Here🎗️](https://t.me/MrperfectOffcial/130)</i></b>",
+            text="<b>🔆 Yᴏᴜ Aʀᴇ Nᴏᴛ Vᴇʀɪғɪᴇᴅ 🤦🏻‍♂️\n🔆 Kɪɴᴅʟʏ Vᴇʀɪғʏ Tᴏ Gᴇᴛ Vɪᴘ Aᴄᴄᴇss\n\n <i>🎗️Hᴏᴡ Tᴏ Oᴘᴇɴ Lɪɴᴋ? › [Click Here🎗️](https://t.me/EasySky_Link)</i></b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
