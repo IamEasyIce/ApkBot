@@ -51,8 +51,8 @@ async def start(client, message):
                     InlineKeyboardButton('⚡MOVIΞS GᏒOUᎮ', url=f'https://t.me/+ZmoLctpXTo8yNjg9'),
                     InlineKeyboardButton('SΞᏒIΞS GᏒOUᎮ⚡', url=f'https://t.me/+68nCNDklgoZlODI1')
                 ],[
-                    InlineKeyboardButton('〄 DC', url=f'https://t.me/Arrowverse24Hour/2179'),
-                    InlineKeyboardButton('⍟ MCU', url=f'https://t.me/MCU_4K'),
+                    InlineKeyboardButton('〄 DC', url=f'https://t.me/Arrowverse24Hour'),
+                    InlineKeyboardButton('⍟ MCU', url=f'https://t.me/+5PhM9DHUi_djMDU1'),
                     InlineKeyboardButton('VIᎮ SΞΛᏒCH ☌', switch_inline_query_current_chat='')
                 ],[
                     InlineKeyboardButton('🔥 JOIИ UᎮDΛTΞS CHΛИИΞL 🔥', url=CHNL_LNK)
@@ -100,8 +100,8 @@ async def start(client, message):
                     InlineKeyboardButton('⚡MOVIΞS GᏒOUᎮ', url=f'https://t.me/+ZmoLctpXTo8yNjg9'),
                     InlineKeyboardButton('SΞᏒIΞS GᏒOUᎮ⚡', url=f'https://t.me/+68nCNDklgoZlODI1')
                 ],[
-                    InlineKeyboardButton('〄 DC', url=f'https://t.me/Arrowverse24Hour/2179'),
-                    InlineKeyboardButton('⍟ MCU', url=f'https://t.me/MCU_4K'),
+                    InlineKeyboardButton('〄 DC', url=f'https://t.me/Arrowverse24Hour'),
+                    InlineKeyboardButton('⍟ MCU', url=f'https://t.me/+5PhM9DHUi_djMDU1'),
                     InlineKeyboardButton('VIᎮ SΞΛᏒCH ☌', switch_inline_query_current_chat='')
                 ],[
                     InlineKeyboardButton('🔥 JOIИ UᎮDΛTΞS CHΛИИΞL 🔥', url=CHNL_LNK)
