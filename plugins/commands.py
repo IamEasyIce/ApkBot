@@ -261,7 +261,9 @@ async def start(client, message):
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
                     InlineKeyboardButton("♦️ Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Vᴇʀɪғʏ ♦️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
-                ]]
+                ],[
+                    InlineKeyboardButton('🔥 JOIИ UᎮDΛTΞS CHΛИИΞL 🔥', url=CHNL_LNK)
+                      ]]
                 await message.reply_text(
                     text="<b>🔆 Yᴏᴜ Aʀᴇ Nᴏᴛ Vᴇʀɪғɪᴇᴅ 🤦🏻‍♂️\n🔆 Kɪɴᴅʟʏ Vᴇʀɪғʏ Tᴏ Gᴇᴛ Vɪᴘ Aᴄᴄᴇss\n\n <i>🎗️Hᴏᴡ Tᴏ Oᴘᴇɴ Lɪɴᴋ? › [Cʟɪᴄᴋ Hᴇʀᴇ🎗️](https://t.me/EasySky_Link)</i></b>",
                     protect_content=True,
@@ -313,7 +315,9 @@ async def start(client, message):
     if not await check_verification(client, message.from_user.id) and VERIFY == True:
         btn = [[
             InlineKeyboardButton("♦️ Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Vᴇʀɪғʏ ♦️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
-        ]]
+        ],[
+            InlineKeyboardButton('🔥 JOIИ UᎮDΛTΞS CHΛИИΞL 🔥', url=CHNL_LNK)
+              ]]
         await message.reply_text(
             text="<b>🔆 Yᴏᴜ Aʀᴇ Nᴏᴛ Vᴇʀɪғɪᴇᴅ 🤦🏻‍♂️\n🔆 Kɪɴᴅʟʏ Vᴇʀɪғʏ Tᴏ Gᴇᴛ Vɪᴘ Aᴄᴄᴇss\n\n <i>🎗️Hᴏᴡ Tᴏ Oᴘᴇɴ Lɪɴᴋ? › [Click Here🎗️](https://t.me/EasySky_Link)</i></b>",
             protect_content=True,
