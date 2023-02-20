@@ -85,7 +85,7 @@ async def start(client, message):
                 pre = 'checksubp' if kk == 'filep' else 'checksub' 
                 btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/TVSeriesCW/2273")])
             except (IndexError, ValueError):
-                btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/TVSeriesCW/2273")])
+                btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
             text="**Pʟᴇᴀsᴇ Jᴏɪɴ Oᴜʀ Mᴀɪɴ Cʜᴀɴɴᴇʟ 🎗 \nTʜᴇɴ Tᴀᴘ Oɴ Tʀʏ AGᴀɪɴ ⚡ \nYᴏᴜ'ʟʟ Gᴇᴛ Yᴏᴜʀ Fɪʟᴇ 🔆**",
