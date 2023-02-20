@@ -83,12 +83,12 @@ async def start(client, message):
             try:
                 kk, file_id = message.command[1].split("_", 1)
                 pre = 'checksubp' if kk == 'filep' else 'checksub' 
-                btn.append([InlineKeyboardButton("Wʜʏ Aᴍ I Jᴏɪɴɪɴɢ‼️", callback_data=f"https://t.me/MrperfectOffcial/422")])
+                btn.append([InlineKeyboardButton("‼️ Wʜʏ Aᴍ I Jᴏɪɴɪɴɢ ‼️", url=f"https://t.me/MrperfectOffcial/422")])
             except (IndexError, ValueError):
-                btn.append([InlineKeyboardButton("Wʜʏ Aᴍ I Jᴏɪɴɪɴɢ‼️", url=f"https://t.me/MrperfectOffcial/422")])
+                btn.append([InlineKeyboardButton("‼️ Wʜʏ Aᴍ I Jᴏɪɴɪɴɢ ‼️", url=f"https://t.me/MrperfectOffcial/422")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Pʟᴇᴀsᴇ Jᴏɪɴ Oᴜʀ Bᴀᴄᴋ-Uᴘ Cʜᴀɴɴᴇʟ 🎗 \nTʜᴇɴ Gᴏ Bᴀᴄᴋ Tᴏ Gʀᴏᴜᴘ Aɴᴅ Rᴇǫᴜᴇsᴛ AGᴀɪɴ ⚡\nYᴏᴜ'ʟʟ Gᴇᴛ Yᴏᴜʀ Fɪʟᴇ 🔆**",
+            text="**Pʟᴇᴀsᴇ Jᴏɪɴ Oᴜʀ Bᴀᴄᴋ-Uᴘ Cʜᴀɴɴᴇʟ 🎗 \nTʜᴇɴ Gᴏ Bᴀᴄᴋ Tᴏ Gʀᴏᴜᴘ Aɴᴅ Rᴇǫᴜᴇsᴛ AGᴀɪɴ\nYᴏᴜ'ʟʟ Gᴇᴛ Yᴏᴜʀ Fɪʟᴇ 🔆**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
