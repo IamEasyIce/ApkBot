@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = "<b>🧤Hᴇʟʟᴏ {}, I'ᴍ <a href=https://telegram.me/{}>{}</a> &amp; I Cᴀɴ Pʀᴏᴠɪᴅᴇ Yᴏᴜ Aɴʏ Mᴏᴠɪᴇs &amp; Sᴇʀɪᴇs</b> 😇"
+    START_TXT = "<b>🧤Hᴇʟʟᴏ {}, I'ᴍ <a href=https://telegram.me/{}>{}</a> &amp; I Cᴀɴ Pʀᴏᴠɪᴅᴇ Yᴏᴜ Pᴏᴘᴜʟᴀʀ Mᴏᴅᴅᴇᴅ Aᴘᴘs &amp; Gᴀᴍᴇs</b> 😇"
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
@@ -120,9 +120,9 @@ Nᴀᴍᴇ - {}"""
 
     MVE_NT_FND = """<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>"""
 
-    TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ 2 Mɪʟʟɪᴏɴ Dᴀᴛᴀʙᴀsᴇ..."""
+    TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Aᴘᴘ Iɴ 100ᴋ Dᴀᴛᴀʙᴀsᴇ..."""
 
-    MELCOW_ENG = """<b><i>🔆 Hᴇʏ {}, Wᴇʟᴄᴏᴍᴇ Tᴏ {} \n\nYᴏᴜ Cᴀɴ Rᴇǫᴜᴇsᴛ Aɴʏ Mᴏᴠɪᴇs, Wᴇʙ-Sᴇʀɪᴇs, Aɴɪᴍᴇ, K-Dʀᴀᴍᴀ, Aɴɪᴍᴀᴛɪᴏɴ Hᴇʀᴇ....</i></b>"""
+    MELCOW_ENG = """<b><i>🔆 Hᴇʏ {}, Wᴇʟᴄᴏᴍᴇ Tᴏ {} \n\nYᴏᴜ Cᴀɴ Rᴇǫᴜᴇsᴛ Aɴʏ Aᴘᴘs Aɴᴅ Gᴀᴍᴇs Hᴇʀᴇ....</i></b>"""
 
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
