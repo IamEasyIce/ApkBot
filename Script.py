@@ -112,13 +112,13 @@ Nᴀᴍᴇ - {}"""
 
     OLD_ALRT_TXT = """🔆 Hᴇʏ {}, ❗Lɪɴᴋ Exᴘɪʀᴇᴅ, Pʟᴇᴀsᴇ Rᴇǫᴜᴇsᴛ Aɢᴀɪɴ ♻"""
 
-    CUDNT_FND = """<b><i>⚠ No Results, Please Follow Request Tips!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>"""
+    CUDNT_FND = """<b><i>⚠ No Results, Sorry I Could not  Find Your App/Game </i></b>"""
 
-    I_CUDNT = """<b><i>⚠ No Results, Please Follow Request Tips !</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>"""
+    I_CUDNT = """<b><i>⚠ No Results, Sorry I Couldn't Find Your App/ Game </i></b>"""
 
-    I_CUD_NT = """<b><i>⚠ No Results, Please Follow Request Tips!!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>"""
+    I_CUD_NT = """<b><i>⚠ No Results, Sorry I Couldn't Find Your App /Game </i></b>"""
 
-    MVE_NT_FND = """<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>"""
+    MVE_NT_FND = """<b><i>⚠ No Results, Sorry I Could not Find Your App / Game </i></b>"""
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Aᴘᴘ Iɴ 100ᴋ Dᴀᴛᴀʙᴀsᴇ..."""
 
@@ -132,28 +132,31 @@ Nᴀᴍᴇ - {}"""
 • ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/MrperfectOffcial_bot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     REQINFO = """
-Cʜᴇᴄᴋ Yᴏᴜʀ Sᴘᴇʟʟɪɴɢ, Rᴇʟᴇᴀsᴇ Dᴀᴛᴇ, Iғ Yᴏᴜ Sᴛɪʟʟ Dᴏɴ'ᴛ Gᴇᴛ Iᴛ Tᴀɢ @admin
-⊱⋅ ──────────────────── ⋅⊰
- Avatar 2009 720p @admin
+⚠ How To Request ⁉️ »
+⊱⋅ ─────────────── ⋅⊰
+› Sɴᴀᴘᴛᴜʙᴇ ✅
+› Yᴏᴜᴛᴜʙᴇ ✅
+› Sɴᴀᴘᴛᴜʙᴇ Mᴏᴅ 🚫
 
-Oᴡᴇɴʀ Wɪʟʟ Uᴘᴅᴀᴛᴇ Tʜᴇ Mᴏᴠɪᴇ"""
+› Don't Type Movie, Upload, Please, Symbol ❌
+"""
 
     MINFO = """
-⚠ Hᴏᴡ Tᴏ Rᴇǫᴜᴇsᴛ Mᴏᴠɪᴇs ⁉️ »
+⚠ How To Request ⁉️ »
 ⊱⋅ ─────────────── ⋅⊰
-› Aᴠᴀᴛᴀʀ ✅
-› Aᴠᴀᴛᴀʀ 2009 720ᴘ ✅
-› Aᴠᴀᴛᴀʀ 2009 720ᴘ Hɪɴᴅɪ ✅
+› Sɴᴀᴘᴛᴜʙᴇ ✅
+› Yᴏᴜᴛᴜʙᴇ ✅
+› Sɴᴀᴘᴛᴜʙᴇ Mᴏᴅ 🚫
 
 › Don't Type Movie, Upload, Please, Symbol ❌
 """
 
     SINFO = """
-⚠ How To Request Series ⁉️ »
+⚠ How To Request ⁉️ »
 ⊱⋅ ─────────────── ⋅⊰
-› Flash S01 ✅
-› Flash Hindi ✅
-› Flash S01E02 Hindi ✅
+› Sɴᴀᴘᴛᴜʙᴇ ✅
+› Yᴏᴜᴛᴜʙᴇ ✅
+› Sɴᴀᴘᴛᴜʙᴇ Mᴏᴅ 🚫
 
 › Don't Type Movie, Upload, Please, Symbol ❌
 """
